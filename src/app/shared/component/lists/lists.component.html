@@ -1,80 +1,101 @@
 <hr>
-<div class="row">
+<div class="row mb-3">
     <div class="col-md-4">
-        <h1>{{productsText}}</h1>
+        <h3>{{productsText}}</h3>
         <ul class="list-group" *ngIf="products.length>0">
             <li class="list-group-item" *ngFor="let product of products">
                 {{product}}
             </li>
         </ul>
-        <h1>{{fruitsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{fruitsText}}</h3>
         <ul class="list-group" *ngIf="fruits.length>0">
             <li class="list-group-item" *ngFor="let fruit of fruits">
                 {{fruit}}
             </li>
         </ul>
-        <hr>
-        <h1>{{colorsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{colorsText}}</h3>
         <ul class="list-group" *ngIf="colors.length>0">
             <li class="list-group-item" *ngFor="let color of colors">
                 {{color}}
             </li>
         </ul>
-        <hr>
-        <h1>{{citiesText}}</h1>
+
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <h3>{{citiesText}}</h3>
         <ul class="list-group" *ngIf="products.length>0">
             <li class="list-group-item" *ngFor="let fruit of fruits">
                 {{fruit}}
             </li>
         </ul>
-        <hr>
-        <h1>{{fruitsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{fruitsText}}</h3>
         <ul class="list-group" *ngIf="cities.length>0">
             <li class="list-group-item" *ngFor="let city of cities">
                 {{city}}
             </li>
         </ul>
-        <hr>
-        <h1>{{subjectsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{subjectsText}}</h3>
         <ul class="list-group" *ngIf="subjects.length>0">
             <li class="list-group-item" *ngFor="let subject of subjects">
                 {{subject}}
             </li>
         </ul>
-        <hr>
-        <h1>{{vehiclesText}}</h1>
+
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <h3>{{vehiclesText}}</h3>
         <ul class="list-group" *ngIf="vehicles.length>0">
             <li class="list-group-item" *ngFor="let vehicle of vehicles">
                 {{vehicle}}
             </li>
         </ul>
-        <hr>
-        <h1>{{animalsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{animalsText}}</h3>
         <ul class="list-group" *ngIf="animals.length>0">
             <li class="list-group-item" *ngFor="let animal of animals">
                 {{animal}}
             </li>
         </ul>
-        <hr>
-        <h1>{{sportsText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{sportsText}}</h3>
         <ul class="list-group" *ngIf="sports.length>0">
             <li class="list-group-item" *ngFor="let sport of sports">
                 {{sport}}
             </li>
         </ul>
-        <hr>
-        <h1>{{countriesText}}</h1>
+
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <h3>{{countriesText}}</h3>
         <ul class="list-group" *ngIf="countries.length>0">
             <li class="list-group-item" *ngFor="let country of countries">
                 {{country}}
             </li>
         </ul>
-        <hr>
-        <h1>{{languagesText}}</h1>
+    </div>
+    <div class="col-md-4">
+        <h3>{{languagesText}}</h3>
         <ul class="list-group" *ngIf="languages.length>0">
             <li class="list-group-item" *ngFor="let lang of languages">
                 {{lang}}
             </li>
         </ul>
     </div>
+
 </div>

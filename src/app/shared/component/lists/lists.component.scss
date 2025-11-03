@@ -1,0 +1,13 @@
+
+h1{
+    white-space: nowrap;        /* Prevent text from wrapping to the next line */
+  overflow: hidden;           /* Hide the overflowing text */
+  text-overflow: ellipsis;    /* Add the ... at the end */
+  width: 200px;          
+}
+
+
+
+
+
+
