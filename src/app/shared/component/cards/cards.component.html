@@ -1,0 +1,124 @@
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let ai of aiArr">
+        <div class="card" *ngIf="aiArr.length>0">
+            <div class="card-header">
+                {{ai.topic}}
+            </div>
+            <div class="card-body">
+                {{ai.details}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let math of mathArr">
+        <div class="card" *ngIf="mathArr.length>0">
+            <div class="card-header">
+                {{math.concept}}
+            </div>
+            <div class="card-body">
+                {{math.explain}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let robot of roboticsArr">
+        <div class="card" *ngIf="roboticsArr.length>0">
+            <div class="card-header">
+                {{robot.module}}
+            </div>
+            <div class="card-body">
+                {{robot.summary}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let business of businessArr">
+        <div class="card" *ngIf="businessArr.length>0">
+            <div class="card-header">
+                {{business.topicName}}
+            </div>
+            <div class="card-body">
+                {{business.description}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let geography of geographyArr">
+        <div class="card" *ngIf="geographyArr.length>0">
+            <div class="card-header">
+                {{geography.subject}}
+            </div>
+            <div class="card-body">
+                {{geography.info}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let psychology of psychologyArr">
+        <div class="card" *ngIf="psychologyArr.length>0">
+            <div class="card-header">
+                {{psychology.field}}
+            </div>
+            <div class="card-body">
+                {{psychology.concept}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let tech of techToolsArr">
+        <div class="card" *ngIf="techToolsArr.length>0">
+            <div class="card-header">
+                {{tech.tool}}
+            </div>
+            <div class="card-body">
+                {{tech.usage}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let education of educationArr">
+        <div class="card" *ngIf="educationArr.length>0">
+            <div class="card-header">
+                {{education.subjectName}}
+            </div>
+            <div class="card-body">
+                {{education.overview}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let cloud of cloudArr">
+        <div class="card" *ngIf="cloudArr.length>0">
+            <div class="card-header">
+                {{cloud.topic}}
+            </div>
+            <div class="card-body">
+                {{cloud.info}}
+            </div>
+        </div>
+    </div>
+</div>
